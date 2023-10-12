@@ -5,6 +5,15 @@
       EXPAND: "expand all",
       COLLAPSE: "collapse all"
     },
+cs: {
+      EXPAND: "rozšířit vše",
+      COLLAPSE: "sbalit vše"
+    },
+
+de: {
+      EXPAND: "alles aufklappen",
+      COLLAPSE: "alles zusammenklappen"
+    },
     es: {
       EXPAND: "muestra todo",
       COLLAPSE: "esconde todos"
