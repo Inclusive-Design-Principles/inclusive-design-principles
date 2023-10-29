@@ -9,7 +9,6 @@ cs: {
       EXPAND: "rozšířit vše",
       COLLAPSE: "sbalit vše"
     },
-
 de: {
       EXPAND: "alles aufklappen",
       COLLAPSE: "alles zusammenklappen"
