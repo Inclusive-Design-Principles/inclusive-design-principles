@@ -5,11 +5,11 @@
       EXPAND: "expand all",
       COLLAPSE: "collapse all"
     },
-cs: {
+    cs: {
       EXPAND: "rozšířit vše",
       COLLAPSE: "sbalit vše"
     },
-de: {
+    de: {
       EXPAND: "alles aufklappen",
       COLLAPSE: "alles zusammenklappen"
     },
@@ -28,6 +28,10 @@ de: {
     nl: {
       EXPAND: "alles uitklappen",
       COLLAPSE: "alles inklappen"
+    },
+    pt: {
+      EXPAND: "expandir tudo",
+      COLLAPSE: "recolher tudo"
     }
   };
   var pageLang = document.querySelector('html').getAttribute('lang');
