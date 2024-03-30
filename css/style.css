@@ -249,13 +249,15 @@ main ul li + li {
   padding-top: 0.75rem;
 }
 
-nav[aria-label="page"] {
+nav[aria-label="page"],
+nav[aria-label="Seite"] {
   text-align: right;
   background: url(/images/line.svg) repeat-x center;
   font-size: 0.8rem;
 }
 
-nav[aria-label="page"] ul {
+nav[aria-label="page"] ul,
+nav[aria-label="Seite"] ul {
   padding: 0.5rem 1rem 0.5rem 0.5rem;
   display: inline-block;
   text-transform: uppercase;
