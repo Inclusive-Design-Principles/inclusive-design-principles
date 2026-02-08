@@ -119,6 +119,10 @@ h1 {
   margin-top: 1rem;
 }
 
+.title-and-illustration h1 {
+  width: 60%;
+}
+
 .title-and-illustration img {
   width: 40%;
   height: auto;
@@ -145,6 +149,10 @@ h1 {
 }
 
 @media (max-width: 370px) {
+  .title-and-illustration h1 {
+    width: 63%;
+  }
+
   .title-and-illustration img {
     width: 37%;
     margin-top: 1.5rem;
@@ -249,13 +257,15 @@ main ul li + li {
   padding-top: 0.75rem;
 }
 
-nav[aria-label="page"] {
+nav[aria-label="page"],
+nav[aria-label="Seite"] {
   text-align: right;
   background: url(/images/line.svg) repeat-x center;
   font-size: 0.8rem;
 }
 
-nav[aria-label="page"] ul {
+nav[aria-label="page"] ul,
+nav[aria-label="Seite"] ul {
   padding: 0.5rem 1rem 0.5rem 0.5rem;
   display: inline-block;
   text-transform: uppercase;
