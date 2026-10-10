@@ -79,12 +79,12 @@ button::-moz-focus-inner {
 
 a:hover, button:hover, .languages [aria-current] {
   text-decoration: none;
-  border-bottom: 2px solid #fcb316;
+  border-bottom: 2px solid #bf8300;
   margin-bottom: -2px;
 }
 
 :focus:not([tabindex="-1"]) {
-  outline: 0.125rem solid #fcb316;
+  outline: 0.125rem solid #bf8300;
   outline-offset: 0.125rem;
   border: 0;
 }
@@ -221,7 +221,7 @@ p [src*="link.svg"] {
 
 .with-button button:hover {
   text-decoration: none;
-  border-color: #fcb316;
+  border-color: #bf8300;
 }
 
 .intro a {
@@ -312,7 +312,7 @@ button i::before {
 }
 
 [data-expands]:hover svg g {
-  color: #fcb316;
+  color: #bf8300;
 }
 
 footer {
